@@ -18,7 +18,7 @@
   width: 64px;
   position: fixed;
   top: 10px;
-  left: 600px;
+  left: 500px;
 }
 
 .morusyaki {
@@ -28,7 +28,7 @@
   margin: 0;
   position: fixed;
   top: 16px;
-  left: 670px;
+  left: 570px;
 }
 
 .workshop {
@@ -37,7 +37,7 @@
   font-weight: 500;
   position: fixed;
   top: 46px;
-  left: 670px;
+  left: 570px;
 }
 
 .hamburger-menu {
