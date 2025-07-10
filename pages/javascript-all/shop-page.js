@@ -22,6 +22,14 @@ const products = [{
   image: 'images/teddy_bear_006.jpg',
   name: 'Sixth cute Teddy Bear',
   price: '25'
+}, {
+  image: 'images/teddy_bear_007.jpg',
+  name: 'Seventh cute Teddy Bear',
+  price: '25'
+}, {
+  image: 'images/teddy_bear_008.jpg',
+  name: 'Eighth cute Teddy Bear',
+  price: '25'
 }];
 
 let productsHTML = '';
