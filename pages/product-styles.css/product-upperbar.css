@@ -1,0 +1,39 @@
+.upper-bar {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Open sans;
+}
+
+.upper-bar-left {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 100px;
+}
+
+.upper-bar-left div {
+  padding: 0 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.upper-bar-right {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 100px;
+}
+
+.upper-bar-right div {
+  padding: 0 8px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline;
+}

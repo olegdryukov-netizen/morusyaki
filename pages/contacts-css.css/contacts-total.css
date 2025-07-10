@@ -1,0 +1,75 @@
+.contacts-main-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 480px;
+  width: 600px;
+  margin-left: 5px;
+}
+
+.contacts-title {
+  display: flex; 
+  justify-content: center; 
+  font-size: 32px;
+  padding-bottom: 12px;
+  margin: 0 20px;
+  border-bottom: 2px solid black;
+}
+
+.name-email-input {
+  display: flex;
+  justify-content: center;
+}
+
+.name-email-input div {
+  margin: 0 12px;
+}
+
+.placeholder-name {
+  width: 250px;
+  height: 32px;
+  font-size: 20px;
+  font-family: Arial;
+  padding-left: 12px;
+  padding-top: 4px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.placeholder-your-message {
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.contacts-send-button {
+  width: 600px;
+  font-size: 18px;
+  padding: 4px 0;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.15;
+}
+
+.contacts-send-button:hover {
+  color: white;
+  background-color: black;
+}
+
+.down-bar {
+  height: 40px;
+  margin: 20px 500px 0 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.down-bar div {
+  cursor: pointer;
+}

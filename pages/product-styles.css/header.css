@@ -1,0 +1,83 @@
+.header {
+  height: 80px;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 36px;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  border-bottom: 1px solid gray;
+}
+
+.crochet-logo-image {
+  width: 64px;
+  position: fixed;
+  top: 10px;
+  left: 600px;
+}
+
+.morusyaki {
+  font-family: Merriweather, Libre Baskerville;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  position: fixed;
+  top: 16px;
+  left: 670px;
+}
+
+.workshop {
+  font-family: Open Sans, Lato;
+  font-size: 14px;
+  font-weight: 500;
+  position: fixed;
+  top: 46px;
+  left: 670px;
+}
+
+.hamburger-menu {
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.basket-black {
+  height: 40px;
+  position: fixed;
+  right: 80px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.home-icon {
+  height: 32px;
+  position: fixed;
+  right: 150px;
+  top: 22px;
+  cursor: pointer;
+}
+
+.fa-youtube-play {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.fa-facebook {
+  position: fixed;
+  top: 20px;
+  left: 100px;
+}
+
+.fa-instagram {
+  position: fixed;
+  top: 20px;
+  left: 170px;
+}
