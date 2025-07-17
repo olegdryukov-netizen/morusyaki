@@ -11,7 +11,7 @@
   grid-template-columns: 3fr 4fr;
   background-color: rgb(255, 255, 255);
   z-index: 100;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid black;
 }
 
 .crochet-logo-image {
@@ -64,20 +64,16 @@
   cursor: pointer;
 }
 
-.fa-youtube-play {
-  position: fixed;
-  top: 20px;
-  left: 20px;
+.down-bar {
+  height: 40px;
+  margin: 20px 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  text-decoration: underline;
 }
 
-.fa-facebook {
-  position: fixed;
-  top: 20px;
-  left: 100px;
-}
-
-.fa-instagram {
-  position: fixed;
-  top: 20px;
-  left: 170px;
+.down-bar div {
+  cursor: pointer;
 }

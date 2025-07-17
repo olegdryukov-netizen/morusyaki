@@ -1,8 +1,10 @@
-let productsHTML = '';
+import {products} from '../data/products.js';
+
+let shopPageHTML = '';
 
 products.forEach((product) => {
-  productsHTML += `
-    <div class="product-container">
+  shopPageHTML += `
+    <div class="product-container js-product-container">
       <div class="product-image-container">
         <img class="product-image"
         src="${product.image}">
@@ -18,6 +20,13 @@ products.forEach((product) => {
   `;
 });
 
-document.querySelector('.js-products-grid')
-  .innerHTML = productsHTML;
+document.querySelector('.js-shop-page-html')
+  .innerHTML = shopPageHTML;
 
+document.querySelectorAll('.js-product-container').forEach((element, index) => {
+  element.addEventListener('click', () => {
+    const selectedProduct = products[index];
+    localStorage.setItem('selectedProductId', selectedProduct.id);
+    window.location.href = 'product-page.html';
+  });
+});
