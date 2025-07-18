@@ -3,7 +3,7 @@ export const products = [
     id: '0000-0001',
     image: 'images/teddy_bear_001.jpg',
     name: 'Handsome Teddy Bear',
-    title: 'Very nice and handsome Teddy Bear. You shouldn/`t be a child to hug it everyday!',
+    title: 'Very nice and handsome Teddy Bear. You shouldnt be a child to hug it everyday!',
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',

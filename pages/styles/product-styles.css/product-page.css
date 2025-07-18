@@ -1,0 +1,150 @@
+.body {
+  margin: 0;
+}
+
+.product-page-grid {
+  margin: 90px 0 30px 0;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  column-gap: 20px;
+}
+
+.product-image-section {
+  margin: 0;
+}
+
+.upper-bar-left {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.upper-bar-left div {
+  padding: 0 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.product-image-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.product-image-large {
+  height: 300px;
+}
+
+.product-carouselle {
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.product-carouselle img {
+  width: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.product-description-grid {
+  display: grid;
+  grid-template-rows: 30px auto auto auto auto auto;
+  row-gap: 20px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.product-description-grid div {
+  padding: 0 50px;
+}
+
+.upper-bar-right {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.upper-bar-right div {
+  padding: 0 8px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.product-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.product-description {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.product-dimensions {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 10px;
+}
+
+.dimensions-icon-position {
+  display: flex;
+  justify-content: right;
+}
+
+.dimensions-icon {
+  width: 80px;
+}
+
+.dimensions-text-position {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.dimensions-text {
+  margin: 0;
+  font-size: 18px;
+  padding: 0;
+}
+
+.product-price-position {
+  display: flex;
+  justify-content: center;
+  align-items: bottom;
+}
+
+.product-price {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+.add-to-cart-button-position {
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-cart-button {
+  width: 240px; 
+  background-color: rgb(150, 150, 150);
+  color: white;
+  font-size: 24px;
+  border-radius: 12px;
+  border: none;
+  padding: 4px 10px;
+  cursor: pointer;
+}

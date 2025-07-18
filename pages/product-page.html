@@ -4,79 +4,114 @@
   <head> 
     <title>Product page</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/product-styles.css/header-downbar.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles/product-styles.css/header.css">
-    <link rel="stylesheet" href="styles/product-styles.css/product.css">
-    <link rel="stylesheet" href="styles/product-styles.css/product-sidebar.css">
-    <link rel="stylesheet" href="styles/product-styles.css/product-upperbar.css">
-    <link rel="stylesheet" href="styles/product-styles.css/product-downbar.css">
-    <link rel="stylesheet" href="styles/product-styles.css/product-buttons.css">
-    <link rel="stylesheet" href="styles/main-page-styles.css/general-css.css">
-
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="styles/product-styles.css/product-page.css">
 
   </head>
   
-  <body style="font-size: 24px; font-family: Roboto, Arial;">
-    
-    <header class="header">
-      <div>
-        <i class="fa fa-youtube-play" style="font-size:36px"></i>
-      </div>
-      <div>
-        <i class="fa fa-facebook" style="font-size:36px"></i>
-      </div>
-      <div>
-        <i class="fa fa-instagram" style="font-size:36px"></i>
-      </div>
+  <body>    
+    <div class="header">
       <img class="crochet-logo-image" src="images/crochet-logo-transparent.png">
+      
       <div class="morusyaki">
-          MORUSYAKI
+        MORUSYAKI
       </div>
+      
       <div class="workshop">
-          CROCHET WORKSHOP
+        CROCHET WORKSHOP
       </div>
+      
       <div>
-          <img class="home-icon" src="images/svg/home.svg">
+        <img class="home-icon" src="images/svg/home.svg">
       </div>
+      
       <div>
-          <img class="basket-black" 
-          src="images/basket_black.png">
+        <img class="basket-black" 
+        src="images/basket_black.png">
       </div>
+      
       <div>
-          <img class="hamburger-menu" 
-          src="images/svg/hamburger-menu.svg">
+        <img class="hamburger-menu" 
+        src="images/svg/hamburger-menu.svg">
       </div>
-    </header>
+    </div>
     
-    <div class="main-grid">      
-      <div class="product-detail-container js-product-container"></div>
+    <div class="product-page-grid js-product-container">
+      <div class="product-image-section">
+        <div class="upper-bar-left">
+          <div>START/</div>
+          <div>SHOP/</div>
+          <div>Handsome Teddy Bear</div>
+        </div>
+        
+        <div class="product-image-position">
+          <img class="product-image-large" 
+          src="images/teddy_bear_001.jpg">
+        </div>
+        
+        <div class="product-carouselle">
+          <img src="images/teddy_bear_001.jpg">
+          <img src="images/teddy_bear_002.jpg">
+          <img src="images/teddy_bear_003.jpg">
+          <img src="images/teddy_bear_004.jpg">
+          <img src="images/teddy_bear_005.jpg">
+          <img src="images/teddy_bear_006.jpg">
+          <img src="images/teddy_bear_007.jpg">
+          <img src="images/teddy_bear_008.jpg">
+        </div>
+      </div>
+      
+      <div class="product-description-grid">
+        <div class="upper-bar-right">
+          <p>&#8592</p><div>back</div>
+          <div>forward</div><p>&#8594</p>
+        </div>
+
+        <div class="product-title">
+          Very nice and handsome Teddy Bear. You shouldnt be a child to hug it everyday!
+        </div>
+
+        <div class="product-description">
+          Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.
+        </div>
+
+        <div class="product-dimensions">
+          <div class="dimensions-icon-position">
+            <img class="dimensions-icon" 
+            src="images/icons/bear_dimensions_icon.png">
+          </div>
+          
+          <div class="dimensions-text-position">
+            <p class="dimensions-text">
+              Height: 20 cm
+            </p>
+          </div>
+        </div>
+
+        <div class="product-price-position">
+          <p class="product-price">
+            25 lari
+          </p>
+        </div>
+
+        <div class="add-to-cart-button-position">
+          <button class="add-to-cart-button">
+            Add to cart
+          </button>
+        </div>
+      </div>
     </div>
 
-    <script type="module" src="scripts/product-page.js"></script>
+    <div class="down-bar">
+      <div>Home</div>
+      <div>Shop</div>
+      <div>Workshop</div>
+      <div>About us</div>
+      <div>Contacts</div>
+    </div>
+
+    <!--<script type="module" src="scripts/product-page.js"></script>-->
   </body>
 </html>
 
