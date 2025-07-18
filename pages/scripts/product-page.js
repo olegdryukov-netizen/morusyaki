@@ -1,36 +1,60 @@
-/*import {cart, addToCart} from '../data/cart.js';*/
-import {products} from '../data/products.js';
+import { products } from '../data/products.js';
 
 const productId = localStorage.getItem('selectedProductId');
-
 const product = products.find(p => p.id === productId);
 
 if (!product) {
-  document.querySelector('.js-product-container').innerHTML = `
-    <p>Sorry, we couldn’t find the product you’re looking for.</p>`;
+  document.querySelector('.js-product-page').innerHTML = '<p>Product not found</p>';
 } else {
-  const productHTML = `
-    <div class="product-page-grid">
-      
+  const imagesHTML = product.carouselImages.map(img =>
+    `<img src="${img}">`
+  ).join('');
+
+  document.querySelector('.js-product-page').innerHTML = `
+    <div class="product-image-section">
+      <div class="upper-bar-left">
+        <div>START/</div>
+        <div>SHOP/</div>
+        <div>${product.name}</div>
+      </div>
+
+      <div class="product-image-position">
+        <img class="product-image-large" src="${product.image}">
+      </div>
+
+      <div class="product-carouselle">${imagesHTML}</div>
+    </div>
+
+    <div class="product-description-grid">
+      <div class="upper-bar-right">
+        <p>&#8592</p><div>back</div>
+        <div>forward</div><p>&#8594</p>
+      </div>
+
+      <div class="product-title">${product.name}</div>
+
+      <div class="product-description">${product.description}</div>
+
+      <div class="product-dimensions">
+        <div class="dimensions-icon-position">
+          <img class="dimensions-icon" src="images/icons/bear_dimensions_icon.png">
+        </div>
+        <div class="dimensions-text-position">
+          <p class="dimensions-text">
+            Height: ${product.height} cm
+          </p>
+        </div>
+      </div>
+
+      <div class="product-price-position">
+        <p class="product-price">${product.price} lari</p>
+      </div>
+
+      <div class="add-to-cart-button-position">
+        <button class="add-to-cart-button">
+          Add to cart
+        </button>
+      </div>
     </div>
   `;
-  document.querySelector('.js-product-container').innerHTML = productHTML;
 }
-
-
-/*function updateCartQuantity() {
-  let cartQuantity = 0;
-      
-  cart.forEach((cartItem) => {
-    cartQuantity += cartItem.quantity;
-  })
-}
-
-document.querySelectorAll('.js-add-to-cart-button')
-  .forEach((button) => {
-    button.addEventListener('click', () => {
-      const productId = button.dataset.productId;
-      addToCart(productId);
-      updateCartQuantity();
-    })
-  });*/

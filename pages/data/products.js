@@ -7,7 +7,17 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '25' 
+    price: '25',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ] 
   }, {
     id: '0000-0002',
     image: 'images/teddy_bear_002.jpg',
@@ -16,7 +26,17 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '23'
+    price: '23',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ] 
   }, {
     id: '0000-0003',
     image: 'images/teddy_bear_003.jpg',
@@ -25,7 +45,17 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '25'
+    price: '25',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ]
   }, {
     id: '0000-0004',
     image: 'images/teddy_bear_004.jpg',
@@ -34,7 +64,17 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '37'
+    price: '37',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ]
   }, {
     id: '0000-0005',
     image: 'images/teddy_bear_005.jpg',
@@ -43,7 +83,17 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '25'
+    price: '25',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ]
   }, {
     id: '0000-0006',
     image: 'images/teddy_bear_006.jpg',
@@ -52,7 +102,17 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '25'
+    price: '25',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ]
   }, {
     id: '0000-0007',
     image: 'images/teddy_bear_007.jpg',
@@ -61,7 +121,17 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '25'
+    price: '25',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ]
   }, {
     id: '0000-0008',
     image: 'images/teddy_bear_008.jpg',
@@ -70,6 +140,16 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '25'
+    price: '25',
+    carouselImages: [
+      'images/teddy_bear_001.jpg',
+      'images/teddy_bear_002.jpg',
+      'images/teddy_bear_003.jpg',
+      'images/teddy_bear_004.jpg',
+      'images/teddy_bear_005.jpg',
+      'images/teddy_bear_006.jpg',
+      'images/teddy_bear_007.jpg',
+      'images/teddy_bear_008.jpg'
+    ]
   }
 ];
