@@ -13,8 +13,8 @@ if (!product) {
   document.querySelector('.js-product-page').innerHTML = `
     <div class="product-image-section">
       <div class="upper-bar-left">
-        <div>START/</div>
-        <div>SHOP/</div>
+        <div class="js-home-icon">HOME/</div>
+        <div class="js-shop-button">SHOP/</div>
         <div>${product.name}</div>
       </div>
 
@@ -59,7 +59,23 @@ if (!product) {
   `;
 }
 
-document.querySelector('.js-home-icon')
-  .addEventListener('click', () => {
+document.querySelectorAll('.js-home-icon')
+  .forEach((icon) => {
+    icon.addEventListener('click', () => {
     window.location.href = 'main-page.html';
-});
+  });
+})
+
+document.querySelectorAll('.js-shop-button')
+  .forEach((shopButton) => {
+    shopButton.addEventListener('click', () => {
+      window.location.href = 'shop-page.html'
+    });
+  })
+
+document.querySelectorAll('.js-workshop-button')
+.forEach((workshopButton) => {
+  workshopButton.addEventListener('click', () => {
+    window.location.href = 'workshop-page.html'
+  });
+})

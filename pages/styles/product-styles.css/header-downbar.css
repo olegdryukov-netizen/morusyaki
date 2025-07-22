@@ -14,6 +14,10 @@
   border-bottom: 1px solid black;
 }
 
+.header-logo-section {
+  cursor: pointer;
+}
+
 .crochet-logo-image {
   width: 64px;
   position: fixed;

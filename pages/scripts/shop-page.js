@@ -27,7 +27,9 @@ document.querySelectorAll('.js-product-container')
   });
 
 
-document.querySelector('.js-home-icon')
-  .addEventListener('click', () => {
+document.querySelectorAll('.js-home-icon')
+  .forEach((icon) => {
+    icon.addEventListener('click', () => {
     window.location.href = 'main-page.html';
-});
+  });
+})

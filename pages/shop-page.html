@@ -11,29 +11,33 @@
 
   <body>
     <div class="header">
-      <img class="crochet-logo-image" src="images/crochet-logo-transparent.png">
+      <div class="header-logo-section js-home-icon">
+        <img class="crochet-logo-image" src="images/crochet-logo-transparent.png">
       
       <div class="morusyaki">
         MORUSYAKI
       </div>
       
-      <div class="workshop">
+      <div class="workshop ">
         CROCHET WORKSHOP
       </div>
-      
-      <div>
-        <img class="home-icon js-home-icon" 
-        src="images/svg/home.svg">
       </div>
       
-      <div>
-        <img class="basket-black" 
-        src="images/basket_black.png">
-      </div>
-      
-      <div>
-        <img class="hamburger-menu" 
-        src="images/svg/hamburger-menu.svg">
+      <div class="header-right-section">
+        <div class="js-home-icon">
+          <img class="home-icon" 
+          src="images/svg/home.svg">
+        </div>
+        
+        <div>
+          <img class="basket-black" 
+          src="images/basket_black.png">
+        </div>
+        
+        <div>
+          <img class="hamburger-menu" 
+          src="images/svg/hamburger-menu.svg">
+        </div>
       </div>
     </div>
 
@@ -43,13 +47,14 @@
     </div>
 
     <div class="down-bar">
-      <div>Home</div>
-      <div>Shop</div>
-      <div>Workshop</div>
+      <div class="js-home-icon">Home</div>
+      <div class="js-shop-button">Shop</div>
+      <div class="js-workshop-button">Workshop</div>
       <div>About us</div>
       <div>Contacts</div>
     </div>
 
     <script type="module" src="scripts/shop-page.js"></script>
+    <script src="scripts/main-page.js"></script>
   </body>
 </html>

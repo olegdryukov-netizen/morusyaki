@@ -1,13 +1,13 @@
-export const shopButton = document
-  .querySelector('.js-shop-button');
+document.querySelectorAll('.js-shop-button')
+  .forEach((shopButton) => {
+    shopButton.addEventListener('click', () => {
+      window.location.href = 'shop-page.html'
+    });
+  })
 
-shopButton.addEventListener('click', () => {
-  window.location.href = 'shop-page.html'
-});
-
-export const workshopButton = document
-  .querySelector('.js-workshop-button');
-
-workshopButton.addEventListener('click', () => {
-  window.location.href = 'workshop-page.html'
-});
+document.querySelectorAll('.js-workshop-button')
+.forEach((workshopButton) => {
+  workshopButton.addEventListener('click', () => {
+    window.location.href = 'workshop-page.html'
+  });
+})
