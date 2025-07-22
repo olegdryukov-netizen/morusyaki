@@ -133,18 +133,30 @@
   padding-bottom: 20px;
 }
 
-.add-to-cart-button-position {
-  display: flex;
+.buttons-position {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0;
   justify-content: center;
 }
 
+.back-to-shop-button-position {
+  display: grid;
+  justify-content: right;
+}
+
+.add-to-cart-button-position {
+  display: grid;
+  justify-content: left;
+}
+
 .add-to-cart-button {
-  width: 240px; 
+  width: 180px; 
   background-color: rgb(150, 150, 150);
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 12px;
   border: none;
-  padding: 4px 10px;
+  padding: 6px 8px;
   cursor: pointer;
 }

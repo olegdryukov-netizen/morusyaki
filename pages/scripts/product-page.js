@@ -50,10 +50,19 @@ if (!product) {
         <p class="product-price">${product.price} lari</p>
       </div>
 
-      <div class="add-to-cart-button-position">
-        <button class="add-to-cart-button">
-          Add to cart
-        </button>
+      <div class="buttons-position">
+        <div class="back-to-shop-button-position">
+          <button class="add-to-cart-button 
+          js-shop-button">
+            Back to SHOP
+          </button>
+        </div>
+
+        <div class="add-to-cart-button-position">
+          <button class="add-to-cart-button">
+            Add to CART
+          </button>
+        </div>
       </div>
     </div>
   `;
