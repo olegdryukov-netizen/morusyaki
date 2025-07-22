@@ -25,3 +25,9 @@ document.querySelectorAll('.js-product-container')
       window.location.href = 'product-page.html';
     });
   });
+
+
+document.querySelector('.js-home-icon')
+  .addEventListener('click', () => {
+    window.location.href = 'main-page.html';
+});

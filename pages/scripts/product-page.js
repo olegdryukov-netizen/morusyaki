@@ -58,3 +58,8 @@ if (!product) {
     </div>
   `;
 }
+
+document.querySelector('.js-home-icon')
+  .addEventListener('click', () => {
+    window.location.href = 'main-page.html';
+});

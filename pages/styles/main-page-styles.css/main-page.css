@@ -1,0 +1,106 @@
+.main-page-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr;
+}
+
+.main-page-icons-sidebar {
+  margin: 0;
+}
+
+.hamburger-menu {
+  height: 40px;
+  position: fixed;
+  left: 14px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.basket-black {
+  height: 40px;
+  position: fixed;
+  left: 10px;
+  top: 60px;
+  cursor: pointer;
+}
+
+.main-page-logo-section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page-logo {
+  width: 460px; 
+  padding-left: 30px;
+  padding-top: 0;
+  padding-bottom: 0;      
+}
+
+.main-page-buttons-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.workshop-button-section {
+  display: grid;
+  justify-content: right;
+}
+
+.workshop-button {
+  background-color: #a9a9a9;
+  color: whitesmoke;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.15;
+}
+
+.workshop-button:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.shop-button-section {
+  display: grid;
+  justify-content: left;
+}
+
+.shop-button {
+  background-color: #a9a9a9;
+  color: whitesmoke;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.15;
+}
+
+.shop-button:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.main-page-catalogue-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+  padding: 50px 20px;
+  cursor: pointer;
+}
+
+.catalogue-image {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
