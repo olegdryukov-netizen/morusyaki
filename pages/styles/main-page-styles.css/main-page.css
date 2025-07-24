@@ -1,6 +1,7 @@
 .main-page-grid {
   display: grid;
   grid-template-columns: 50px 1fr 1fr;
+  margin: 0;
 }
 
 .main-page-icons-sidebar {
@@ -27,10 +28,11 @@
   display: grid;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .main-page-logo {
-  width: 460px; 
+  width: 450px; 
   padding-left: 30px;
   padding-top: 0;
   padding-bottom: 0;      

@@ -33,3 +33,10 @@ document.querySelectorAll('.js-home-icon')
     window.location.href = 'main-page.html';
   });
 })
+
+document.querySelectorAll('.js-contacts-button')
+.forEach((contactsButton) => {
+  contactsButton.addEventListener('click', () => {
+    window.location.href = 'contacts-page.html'
+  });
+})
