@@ -45,7 +45,7 @@ export const products = [
     description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
-    price: '25',
+    price: '24',
     carouselImages: [
       'images/teddy_bear_001.jpg',
       'images/teddy_bear_002.jpg',
