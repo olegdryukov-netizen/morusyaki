@@ -34,6 +34,13 @@ document.querySelectorAll('.js-home-icon')
   });
 })
 
+document.querySelectorAll('.js-basket-button')
+.forEach((basketButton) => {
+  basketButton.addEventListener('click', () => {
+    window.location.href = 'checkout-page.html'
+  });
+})
+
 document.querySelectorAll('.js-contacts-button')
 .forEach((contactsButton) => {
   contactsButton.addEventListener('click', () => {
