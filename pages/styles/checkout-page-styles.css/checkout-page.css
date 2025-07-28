@@ -56,6 +56,25 @@
   margin: 0;
 }
 
+.selected-product-delete-button-position {
+  display: grid;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.selected-product-delete-button {
+  min-width: 100px; 
+  background-color: rgb(255, 160, 0);
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: none;
+  padding: 4px 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
 .payment-section {
   margin: 0;
 }

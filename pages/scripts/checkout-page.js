@@ -1,4 +1,4 @@
-import { cart } from "../data/cart.js";
+import { cart, removeFromCart } from "../data/cart.js";
 import { products } from "../data/products.js";
 
 let cartSummaryHTML = '';
@@ -15,7 +15,8 @@ cart.forEach((cartItem) => {
   })
 
   cartSummaryHTML += `
-    <div class="selected-product-container">
+    <div class="selected-product-container 
+    js-selected-product-container-${matchingProduct.id}">
       <div class="selected-product-image-position">
         <img class="selected-product-image" 
         src="${matchingProduct.image}">
@@ -32,12 +33,31 @@ cart.forEach((cartItem) => {
           ${matchingProduct.price} lari
         </p>
       </div>
+
+      <div class="selected-product-delete-button-position">
+        <button class="selected-product-delete-button js-selected-product-delete-button" 
+        data-product-id="${matchingProduct.id}">
+          Delete
+        </button>
+      </div>
     </div>
   `;
 })
 
 document.querySelector('.js-selected-products-section')
   .innerHTML = cartSummaryHTML;
+
+document.querySelectorAll('.js-selected-product-delete-button')
+  .forEach((deleteButton) => {
+    deleteButton.addEventListener('click', () => {
+      const productId = deleteButton.dataset.productId;
+      removeFromCart(productId);
+
+      const container = document.querySelector(`.js-selected-product-container-${productId}`
+      );
+      container.remove();
+    })
+  })
 
 document.querySelectorAll('.js-home-icon')
   .forEach((icon) => {
