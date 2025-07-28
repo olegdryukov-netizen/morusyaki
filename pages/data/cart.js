@@ -1,4 +1,13 @@
-export const cart = [];
+export const cart = [{
+  productId: '0000-0004',
+  quantity: '1'
+}, {
+  productId: '0000-0007',
+  quantity: '1'
+}, {
+  productId: '0000-0001',
+  quantity: '1'
+}];
 
 export function addToCart(productId) {
   let matchingItem;

@@ -1,4 +1,5 @@
 import { products } from '../data/products.js';
+import { cart, addToCart } from '../data/cart.js';
 
 const productId = localStorage.getItem('selectedProductId');
 const product = products.find(p => p.id === productId);
@@ -59,7 +60,8 @@ if (!product) {
         </div>
 
         <div class="add-to-cart-button-position">
-          <button class="add-to-cart-button">
+          <button class="add-to-cart-button 
+          js-add-to-cart-button">
             Add to CART
           </button>
         </div>
@@ -100,5 +102,13 @@ document.querySelectorAll('.js-contacts-button')
 .forEach((contactsButton) => {
   contactsButton.addEventListener('click', () => {
     window.location.href = 'contacts-page.html'
+  });
+})
+
+document.querySelectorAll('.js-add-to-cart-button')
+.forEach((addToCartButton) => {
+  addToCartButton.addEventListener('click', () => {
+    addToCart();
+    console.log(cart);
   });
 })
