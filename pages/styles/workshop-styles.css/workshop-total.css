@@ -43,6 +43,8 @@
 .pick-toy-icon {
   height: 100px;
   padding-left: 25px;
+  cursor: pointer;
+  transition: 0.15s;
 }
 
 .pick-your-toy-button-position {

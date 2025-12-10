@@ -12,10 +12,10 @@ cart.forEach((cartItem) => {
     if(product.id === productId) {
       matchingProduct = product;
     }
-  })
+  });
 
   cartSummaryHTML += `
-    <div class="selected-product-container 
+    <div class="selected-product-container
     js-selected-product-container-${matchingProduct.id}">
       <div class="selected-product-image-position">
         <img class="selected-product-image" 
@@ -42,15 +42,15 @@ cart.forEach((cartItem) => {
       </div>
     </div>
   `;
-})
+});
 
 document.querySelector('.js-selected-products-section')
-  .innerHTML = cartSummaryHTML;
+ .innerHTML = cartSummaryHTML;
 
 document.querySelectorAll('.js-selected-product-delete-button')
-  .forEach((deleteButton) => {
-    deleteButton.addEventListener('click', () => {
-      const productId = deleteButton.dataset.productId;
+  .forEach((button) => {
+    button.addEventListener('click', () => {
+      const productId = button.dataset.productId;
       removeFromCart(productId);
 
       const container = document.querySelector(`.js-selected-product-container-${productId}`

@@ -28,8 +28,10 @@ if (!product) {
 
     <div class="product-description-grid">
       <div class="upper-bar-right">
-        <p>&#8592</p><div>back</div>
-        <div>forward</div><p>&#8594</p>
+        <p>&#8592</p><div class="js-product-previous">
+          previous</div>
+        <div class="js-product-next">
+          next</div><p>&#8594</p>
       </div>
 
       <div class="product-title">${product.name}</div>
@@ -111,4 +113,12 @@ document.querySelectorAll('.js-add-to-cart-button')
     addToCart();
     console.log(cart);
   });
+})
+
+document.querySelector('.js-product-previous').addEventListener('click', () => {
+  console.log('previous product')
+})
+
+document.querySelector('.js-product-next').addEventListener('click', () => {
+  console.log('next product')
 })
