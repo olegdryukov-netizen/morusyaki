@@ -8,7 +8,7 @@
   font-size: 36px;
   font-weight: 500;
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: 3fr 1fr 3fr;
   background-color: rgb(255, 255, 255);
   z-index: 100;
   border-bottom: 1px solid black;
@@ -24,13 +24,14 @@
 
 .header-logo-section {
   cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-content: center;
 }
 
 .crochet-logo-image {
   width: 64px;
-  position: fixed;
-  top: 10px;
-  left: 500px;
 }
 
 .morusyaki {
@@ -38,18 +39,12 @@
   font-size: 24px;
   font-weight: bold;
   margin: 0;
-  position: fixed;
-  top: 16px;
-  left: 570px;
 }
 
 .workshop {
   font-family: Open Sans, Lato;
   font-size: 14px;
   font-weight: 500;
-  position: fixed;
-  top: 46px;
-  left: 570px;
 }
 
 .home-icon {
