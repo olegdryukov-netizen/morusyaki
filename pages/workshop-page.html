@@ -43,11 +43,6 @@
           <img class="workshop-icon" 
           src="images/crochet-logo-transparent.png">
         </div>
-
-        <div class="js-basket-button">
-          <img class="basket-black" 
-          src="images/basket_black.png">
-        </div>
       </div>
     </div>
 
@@ -71,36 +66,83 @@
       <div class="workshop-main-grid">
         <div class="workshop-title">
           <p>
-            Workshop
+            Atelier
           </p>
         </div>
 
         <div class="pick-toy-grid">
-          <img class="pick-toy-icon" src="images/icons/bear_icon.png">
-          <img class="pick-toy-icon" src="images/icons/kitty_icon.png">
-          <img class="pick-toy-icon" src="images/icons/rabbit_icon.png">
-          <img class="pick-toy-icon" src="images/icons/pony_icon.png">
+          <div class="pick-toy-item" data-toy="bear">
+            <img class="pick-toy-icon" src="images/icons/bear_icon.png">
+            <div class="pick-toy-label">Bear</div>
+          </div>
+
+          <div class="pick-toy-item" data-toy="kitty">
+            <img class="pick-toy-icon" src="images/icons/kitty_icon.png">
+            <div class="pick-toy-label">Kitty</div>
+          </div>
+
+          <div class="pick-toy-item" data-toy="rabbit">
+            <img class="pick-toy-icon" src="images/icons/rabbit_icon.png">
+            <div class="pick-toy-label">Rabbit</div>
+          </div>
+
+          <div class="pick-toy-item" data-toy="pony">
+            <img class="pick-toy-icon" src="images/icons/pony_icon.png">
+            <div class="pick-toy-label">Pony</div>
+          </div>
         </div>
 
         <div class="pick-your-toy-button-position">
           <button class="pick-your-toy-button">
-            Pick your toy
+            Choose a base character
           </button>
         </div>
 
-        <div class="pick-main-color">
-          <img class="thread-icon" src="images/threads/beige_thread.png">
-          <img class="thread-icon" src="images/threads/yellow_thread.png">
-          <img class="thread-icon" src="images/threads/pink_thread.png">
-          <img class="thread-icon" src="images/threads/salad_green_thread.png">
-          <img class="thread-icon" src="images/threads/sky_blu_thread.png">
-          <img class="thread-icon" src="images/threads/purple_thread.png">
-          <img class="thread-icon" src="images/threads/brown_thread.png">
+        <div class="pick-main-color-grid">
+          <div class="color-item" data-color="beige">
+            <img class="thread-icon" src="images/threads/beige_thread.png">
+            <div class="pick-toy-label">Beige</div>
+          </div>
+          
+          <div class="color-item" data-color="yellow">
+            <img class="thread-icon" src="images/threads/yellow_thread.png">
+            <div class="pick-toy-label">Yellow</div>
+          </div>
+
+          <div class="color-item" data-color="pink">
+            <img class="thread-icon" src="images/threads/pink_thread.png">
+            <div class="pick-toy-label">Pink</div>
+          </div>
+
+          <div class="color-item" data-color="orange">
+            <img class="thread-icon" src="images/threads/orange_thread.png">
+            <div class="pick-toy-label">Orange</div>
+          </div>
+
+          <div class="color-item" data-color="salad">
+            <img class="thread-icon" src="images/threads/salad_green_thread.png">
+            <div class="pick-toy-label">Salad</div>
+          </div>
+
+          <div class="color-item" data-color="sky_blu">
+            <img class="thread-icon" src="images/threads/sky_blu_thread.png">
+            <div class="pick-toy-label">Sky blu</div>
+          </div>
+
+          <div class="color-item" data-color="purple">
+            <img class="thread-icon" src="images/threads/purple_thread.png">
+            <div class="pick-toy-label">Purple</div>
+          </div>
+
+          <div class="color-item" data-color="brown">
+            <img class="thread-icon" src="images/threads/brown_thread.png">
+            <div class="pick-toy-label">Brown</div>
+          </div>
         </div>
         
         <div class="pick-your-toy-button-position">
           <button class="pick-your-toy-button">
-            Pick color
+            Choose main color
           </button>
         </div>
 
@@ -110,7 +152,7 @@
 
         <div class="workshop-submit-button-position">
           <button class="workshop-submit-button">
-            Submit Order
+            Send Request
           </button>
         </div>
       </div>
@@ -118,15 +160,12 @@
 
     <div class="down-bar">
       <div class="js-home-icon">Home</div>
-      <div class="js-shop-button">Shop</div>
-      <div class="js-workshop-button">Workshop</div>
+      <div class="js-shop-button">Gallery</div>
+      <div class="js-workshop-button">Atelier</div>
       <div>About us</div>
       <div class="js-contacts-button">Contacts</div>
     </div>
 
     <script type="module" src="scripts/workshop-page.js"></script>
-    <script src="scripts/shop-page.js"></script>
-    <script src="scripts/main-page.js"></script>
-    <script src="scripts/product-page.js"></script>
   </body>
 </html>
