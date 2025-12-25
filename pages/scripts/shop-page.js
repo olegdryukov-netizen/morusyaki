@@ -9,7 +9,11 @@ products.forEach((product) => {
         <img class="product-image" src="${product.image}">
       </div>
       <div class="product-name">${product.name}</div>
-      <div class="product-price">${product.price} lari</div>
+      <div class="product-price">
+        <button class="I-choose-you-button">
+          I choose you!
+        </button>
+      </div>
     </div>
   `;
 });

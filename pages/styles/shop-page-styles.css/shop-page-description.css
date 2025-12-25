@@ -45,3 +45,20 @@
   font-family: Open Sans;
   padding-bottom: 8px;
 }
+
+.I-choose-you-button {
+  background-color: rgb(252, 216, 221);
+  color: rgb(26, 146, 26);
+  padding: 4px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: grab;
+  transition: 0.15;
+}
+
+.I-choose-you-button:hover {
+  box-shadow: 2px -2px rgb(255, 123, 145);
+  background-color: lightpink;
+  color: rgb(154, 254, 201);
+}
