@@ -15,7 +15,7 @@ if (!product) {
     <div class="product-image-section">
       <div class="upper-bar-left">
         <div class="js-home-icon">HOME/</div>
-        <div class="js-shop-button">SHOP/</div>
+        <div class="js-shop-button">GALLERY/</div>
         <div>${product.name}</div>
       </div>
 
@@ -49,22 +49,18 @@ if (!product) {
         </div>
       </div>
 
-      <div class="product-price-position">
-        <p class="product-price">${product.price} lari</p>
-      </div>
-
       <div class="buttons-position">
         <div class="back-to-shop-button-position">
-          <button class="add-to-cart-button 
+          <button class="back-to-shop-button 
           js-shop-button">
-            Back to SHOP
+            Back to GALLERY
           </button>
         </div>
 
         <div class="add-to-cart-button-position">
           <button class="add-to-cart-button 
           js-add-to-cart-button">
-            Add to CART
+            I want YOU!
           </button>
         </div>
       </div>
@@ -122,3 +118,10 @@ document.querySelector('.js-product-previous').addEventListener('click', () => {
 document.querySelector('.js-product-next').addEventListener('click', () => {
   console.log('next product')
 })
+
+
+/* add Price in Product Description Grid section
+<div class="product-price-position">
+  <p class="product-price">${product.price} lari</p>
+</div>
+*/

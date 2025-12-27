@@ -1,10 +1,10 @@
 export const products = [
   {
     id: '0000-0001',
-    image: 'images/teddy_bear_001.jpg',
-    name: 'Handsome Teddy Bear',
-    title: 'Very nice and handsome Teddy Bear. You shouldnt be a child to hug it everyday!',
-    description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
+    image: 'images/Snowman.jpg',
+    name: 'Cute Korean Snowman',
+    title: 'Very nice and cute Korean Snowman. You shouldnt be a child to hug it everyday!',
+    description: 'Soft, charming, and full of character — this handmade crochet snowman makes the perfect gift for children and collectors alike. Carefully crafted with fine details: nice scarf and fancy hat. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
     price: '25',
@@ -20,16 +20,16 @@ export const products = [
     ] 
   }, {
     id: '0000-0002',
-    image: 'images/teddy_bear_002.jpg',
-    name: 'Brown Teddy Bear',
-    title: 'Brown Teddy Bear. Cute and sweety!',
-    description: 'Soft, charming, and full of character — this handmade crochet teddy bear makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
+    image: 'images/clown.jpg',
+    name: 'Piggie`s Clown',
+    title: 'Piggie`s Clown. Cute and sweety!',
+    description: 'Soft, charming, and full of character — this handmade crochet clown makes the perfect gift for children and collectors alike. Carefully crafted with fine details: expressive eyes, a sky-blue nose, and adorable stitched patches. A heartwarming companion for any age.',
     dimensionsIcon: 'images/icons/bear_dimensions_icon.png',
     height: '20',
     price: '23',
     carouselImages: [
-      'images/teddy_bear_001.jpg',
-      'images/teddy_bear_002.jpg',
+      'images/Snowman.jpg',
+      'images/clown.jpg',
       'images/teddy_bear_003.jpg',
       'images/teddy_bear_004.jpg',
       'images/teddy_bear_005.jpg',

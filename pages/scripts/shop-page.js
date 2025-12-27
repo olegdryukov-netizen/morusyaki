@@ -10,8 +10,8 @@ products.forEach((product) => {
       </div>
       <div class="product-name">${product.name}</div>
       <div class="product-price">
-        <button class="I-choose-you-button">
-          I choose you!
+        <button class="I-want-you-button">
+          I want you!
         </button>
       </div>
     </div>
