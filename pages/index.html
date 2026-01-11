@@ -7,67 +7,87 @@
 
     <!-- Global styles -->
     <link rel="stylesheet" href="styles/product-styles.css/header-downbar.css">
-    <link rel="stylesheet" href="styles/main-page.css">
+    <link rel="stylesheet" href="styles/main-page-styles.css/main-page.css">
   </head>
 
-  <body>
-
-    <!-- Header -->
-    <header class="header">
-      <div class="header-logo-section">
-        <img
-          class="crochet-logo-image"
-          src="images/crochet-logo-transparent.png"
-          alt="Morusyaki Crochet Workshop logo"
-        />
-
-        <div class="logo-name">
-          <div class="morusyaki">MORUSYAKI</div>
-          <div class="workshop">CROCHET WORKSHOP</div>
+  <body> 
+    <div class="main-page-grid">
+      <div class="main-page-logo-section">
+        <img class="main-page-logo" src="images/main_logo.png">
+  
+        <section class="intro">
+          <h1>Handmade toys with character and care</h1>
+  
+          <p>
+            Morusyaki is a small crochet workshop where each toy is created by hand,
+            with attention to detail, personality, and warmth.
+          </p>
+  
+          <p>
+            Here you can explore finished works, learn how a custom toy is created,
+            and get in touch to request a unique handmade piece.
+          </p>
+        </section>
+  
+        <div class="main-page-buttons-section">
+          <div class="workshop-button-section">
+            <button class="workshop-button js-workshop-button">
+              WORKSHOP
+            </button>
+          </div>
+          
+          <div class="shop-button-section">
+            <button class="shop-button js-shop-button">
+              GALLERY
+            </button>
+          </div>
         </div>
       </div>
-    </header>
+  
+      <div class="main-page-catalogue-section js-shop-button">
+        <div>
+          <img class="catalogue-image" 
+          src="images/clown.jpg">
+        </div>
+        <div>
+          <img class="catalogue-image" 
+          src="images/Snowman.jpg">
+        </div>
+        <div>
+          <img class="catalogue-image" 
+          src="images/teddy_bear_005.jpg">
+        </div>
+        <div>
+          <img class="catalogue-image" 
+          src="images/teddy_bear_006.jpg">
+        </div>
+        <div>
+          <img class="catalogue-image" 
+          src="images/teddy_bear_007.jpg">
+        </div>
+        <div>
+          <img class="catalogue-image" 
+          src="images/teddy_bear_008.jpg">
+        </div>
+        <div>
+          <img class="catalogue-image" 
+          src="images/teddy_bear_001.jpg">
+        </div>
+        <div>
+          <img class="catalogue-image" 
+          src="images/teddy_bear_002.jpg">
+        </div>
+      </div>
+    </div>
+    
+    <div class="down-bar">
+      <div class="js-home-icon">Home</div>
+      <div class="js-shop-button">Gallery</div>
+      <div class="js-workshop-button">Workshop</div>
+      <div>About us</div>
+      <div class="js-contacts-button">Contacts</div>
+    </div>
 
-    <!-- Main -->
-    <main class="main-page">
-
-      <section class="intro">
-        <h1>Handmade toys with character and care</h1>
-
-        <p>
-          Morusyaki is a small crochet workshop where each toy is created by hand,
-          with attention to detail, personality, and warmth.
-        </p>
-
-        <p>
-          Here you can explore finished works, learn how a custom toy is created,
-          and get in touch to request a unique handmade piece.
-        </p>
-      </section>
-
-      <section class="navigation">
-        <a class="nav-link" href="gallery.html">
-          Gallery
-          <span>Finished toys</span>
-        </a>
-
-        <a class="nav-link" href="workshop.html">
-          Atelier
-          <span>Custom requests</span>
-        </a>
-
-        <a class="nav-link" href="contacts.html">
-          Contacts
-          <span>Get in touch</span>
-        </a>
-      </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="down-bar">
-      <div>© Morusyaki Crochet Workshop</div>
-    </footer>
-
+    <script type="module" src="scripts/main-page.js"></script>
   </body>
 </html>

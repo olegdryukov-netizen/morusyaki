@@ -1,27 +1,8 @@
 .main-page-grid {
   display: grid;
-  grid-template-columns: 50px 1fr 1fr;
-  margin: 0;
-}
-
-.main-page-icons-sidebar {
-  margin: 0;
-}
-
-.hamburger-menu {
-  height: 40px;
-  position: fixed;
-  left: 14px;
-  top: 10px;
-  cursor: pointer;
-}
-
-.basket-black {
-  height: 40px;
-  position: fixed;
-  left: 10px;
-  top: 60px;
-  cursor: pointer;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  margin: 0 200px;
 }
 
 .main-page-logo-section {
@@ -32,10 +13,8 @@
 }
 
 .main-page-logo {
-  width: 450px; 
-  padding-left: 30px;
-  padding-top: 0;
-  padding-bottom: 0;      
+  width: 320px;
+  padding-left: 80px;      
 }
 
 .main-page-buttons-section {
@@ -43,7 +22,8 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 24px;
   justify-content: center;
-  align-items: center;
+  align-items: top;
+  padding: 20px 0;
 }
 
 .workshop-button-section {
