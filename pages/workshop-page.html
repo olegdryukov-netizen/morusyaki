@@ -52,90 +52,68 @@
         font-size: 18px; font-weight: bold;">
           Welcome to Our Workshop!</p>
         <p>We are delighted to welcome you to our workshop, where every toy is created with love and care. We are ready to craft a special handmade toy just for you!</p>
-        <p>On the right, you can select the toy you would like us to make. Simply click on the corresponding icon. At the moment, we offer a charming teddy bear, a playful bunny, an adorable kitten, and a cheerful pony.</p>
-        <p>Next, choose the primary color for your toy by clicking on the color icon. This will set the main color scheme for your creation.</p>        
-        <p>In the "Description" section, please describe in your own words what you envision. Let us know the desired size, the color of the eyes, ears, and any other details you would like to personalize.</p>
+        <p>On the right, tell us about the toy you would like us to make. Please describe in your own words what you envision. Let us know the desired size, the color of the eyes, ears, and any other details you would like to personalize.</p>
+        <p>Next, choose the primary color for your toy by clicking on the color icon. This will set the main color scheme for your creation.</p>
+        <p>Repeat the process. This time, choose a color for the details and various accents — eyes, ears, paws ecc.</p>         
         <p>If you wish, you can leave the creative details to our artisans — and let the final toy be a pleasant surprise for you! In this case, your toy will be approximately 20 cm (±3–5 cm) tall.</p>
         <p>Please also provide your preferred contact method here, or leave your contact information on the "Contacts" page.</p>
-        <p>Once everything is ready, simply click the "Submit Order" button.</p>
-        <p>We will get in touch with you shortly to confirm the details and discuss the price.</p>
-        <p>And don’t worry — if for any reason you are unable to proceed with payment, your toy will find a home in our “Shop” section, waiting for its new owner.</p>
+        <p>Once everything is ready, simply click the "Send Request" button.</p>
+        <p>We will get in touch with you shortly to confirm the details.</p>
         <p>We look forward to working with you and hope that our collaboration will bring joy and inspiration to us all!</p>
       </div>
 
       <div class="workshop-main-grid">
         <div class="workshop-title">
           <p>
-            Atelier
+            Workshop
           </p>
         </div>
 
-        <div class="pick-toy-grid">
-          <div class="pick-toy-item" data-toy="bear">
-            <img class="pick-toy-icon" src="images/icons/bear_icon.png">
-            <div class="pick-toy-label">Bear</div>
-          </div>
-
-          <div class="pick-toy-item" data-toy="kitty">
-            <img class="pick-toy-icon" src="images/icons/kitty_icon.png">
-            <div class="pick-toy-label">Kitty</div>
-          </div>
-
-          <div class="pick-toy-item" data-toy="rabbit">
-            <img class="pick-toy-icon" src="images/icons/rabbit_icon.png">
-            <div class="pick-toy-label">Rabbit</div>
-          </div>
-
-          <div class="pick-toy-item" data-toy="pony">
-            <img class="pick-toy-icon" src="images/icons/pony_icon.png">
-            <div class="pick-toy-label">Pony</div>
-          </div>
-        </div>
-
-        <div class="pick-your-toy-button-position">
-          <button class="pick-your-toy-button">
-            Choose a base character
-          </button>
-        </div>
+        <form>
+          <textarea class="describe-your-toy-textarea">
+            Describe your toy by your own words
+          </textarea>
+        </form>
+        
 
         <div class="pick-main-color-grid">
           <div class="color-item" data-color="beige">
-            <img class="thread-icon" src="images/threads/beige_thread.png">
+            <img class="thread-icon" src="images/threads/beige_thread.jpg">
             <div class="pick-toy-label">Beige</div>
           </div>
           
           <div class="color-item" data-color="yellow">
-            <img class="thread-icon" src="images/threads/yellow_thread.png">
+            <img class="thread-icon" src="images/threads/yellow_thread.jpg">
             <div class="pick-toy-label">Yellow</div>
           </div>
 
           <div class="color-item" data-color="pink">
-            <img class="thread-icon" src="images/threads/pink_thread.png">
+            <img class="thread-icon" src="images/threads/pink_thread.jpg">
             <div class="pick-toy-label">Pink</div>
           </div>
 
           <div class="color-item" data-color="orange">
-            <img class="thread-icon" src="images/threads/orange_thread.png">
+            <img class="thread-icon" src="images/threads/orange_thread.jpg">
             <div class="pick-toy-label">Orange</div>
           </div>
 
           <div class="color-item" data-color="salad">
-            <img class="thread-icon" src="images/threads/salad_green_thread.png">
+            <img class="thread-icon" src="images/threads/salad_green_thread.jpg">
             <div class="pick-toy-label">Salad</div>
           </div>
 
           <div class="color-item" data-color="sky_blu">
-            <img class="thread-icon" src="images/threads/sky_blu_thread.png">
+            <img class="thread-icon" src="images/threads/sky_blu_thread.jpg">
             <div class="pick-toy-label">Sky blu</div>
           </div>
 
           <div class="color-item" data-color="purple">
-            <img class="thread-icon" src="images/threads/purple_thread.png">
+            <img class="thread-icon" src="images/threads/purple_thread.jpg">
             <div class="pick-toy-label">Purple</div>
           </div>
 
           <div class="color-item" data-color="brown">
-            <img class="thread-icon" src="images/threads/brown_thread.png">
+            <img class="thread-icon" src="images/threads/brown_thread.jpg">
             <div class="pick-toy-label">Brown</div>
           </div>
         </div>
@@ -146,8 +124,52 @@
           </button>
         </div>
 
-        <div>
-          <input class="describe-your-toy-placeholder" placeholder="Describe your toy by your own words">
+        <div class="pick-main-color-grid">
+          <div class="color-item" data-color="beige">
+            <img class="thread-icon" src="images/threads/beige_thread.jpg">
+            <div class="pick-toy-label">Beige</div>
+          </div>
+          
+          <div class="color-item" data-color="yellow">
+            <img class="thread-icon" src="images/threads/yellow_thread.jpg">
+            <div class="pick-toy-label">Yellow</div>
+          </div>
+
+          <div class="color-item" data-color="pink">
+            <img class="thread-icon" src="images/threads/pink_thread.jpg">
+            <div class="pick-toy-label">Pink</div>
+          </div>
+
+          <div class="color-item" data-color="orange">
+            <img class="thread-icon" src="images/threads/orange_thread.jpg">
+            <div class="pick-toy-label">Orange</div>
+          </div>
+
+          <div class="color-item" data-color="salad">
+            <img class="thread-icon" src="images/threads/salad_green_thread.jpg">
+            <div class="pick-toy-label">Salad</div>
+          </div>
+
+          <div class="color-item" data-color="sky_blu">
+            <img class="thread-icon" src="images/threads/sky_blu_thread.jpg">
+            <div class="pick-toy-label">Sky blu</div>
+          </div>
+
+          <div class="color-item" data-color="purple">
+            <img class="thread-icon" src="images/threads/purple_thread.jpg">
+            <div class="pick-toy-label">Purple</div>
+          </div>
+
+          <div class="color-item" data-color="brown">
+            <img class="thread-icon" src="images/threads/brown_thread.jpg">
+            <div class="pick-toy-label">Brown</div>
+          </div>
+        </div>
+        
+        <div class="pick-your-toy-button-position">
+          <button class="pick-your-toy-button">
+            Choose secondary color
+          </button>
         </div>
 
         <div class="workshop-submit-button-position">
@@ -161,7 +183,7 @@
     <div class="down-bar">
       <div class="js-home-icon">Home</div>
       <div class="js-shop-button">Gallery</div>
-      <div class="js-workshop-button">Atelier</div>
+      <div class="js-workshop-button">Workshop</div>
       <div>About us</div>
       <div class="js-contacts-button">Contacts</div>
     </div>
