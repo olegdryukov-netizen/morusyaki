@@ -40,7 +40,7 @@ if (!product) {
 
       <div class="product-dimensions">
         <div class="dimensions-icon-position">
-          <img class="dimensions-icon" src="images/icons/bear_dimensions_icon.png">
+          <img class="dimensions-icon" src="images/icons/bear_dimensions_icon.jpg">
         </div>
         <div class="dimensions-text-position">
           <p class="dimensions-text">
@@ -86,13 +86,6 @@ document.querySelectorAll('.js-workshop-button')
 .forEach((workshopButton) => {
   workshopButton.addEventListener('click', () => {
     window.location.href = 'workshop-page.html'
-  });
-})
-
-document.querySelectorAll('.js-basket-button')
-.forEach((basketButton) => {
-  basketButton.addEventListener('click', () => {
-    window.location.href = 'checkout-page.html'
   });
 })
 

@@ -29,14 +29,15 @@
 }
 
 .product-image-position {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
 }
 
 .product-image-large {
-  height: 240px;
+  max-height: 320px;
+  min-height: 320px;
 }
 
 .product-carouselle {
