@@ -67,6 +67,11 @@
   border-radius: 8px;
 }
 
+.pick-toy-label {
+  text-align: center;
+}
+
+
 .pick-your-toy-button:hover {
   color: white;
   background-color: rgb(96, 96, 96);
